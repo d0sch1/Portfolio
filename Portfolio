@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+  @font-face {
+    font-family: 'Bangers', cursive;
+  }
+  
+  body {
+      height: 1000px;
+  }
+  img {
+      max-width: 70%;
+      padding: 10px;
+      margin:10px;
+      border: solid;
+      border-color: transparent;
+      border-radius: 200px;
+  }
+  #Header {
+      height: 50px;
+      text-align: center;
+      font-family: 'Bangers';
+      box-shadow: 13px 10px 5px -4px rgba(0,0,0,0.4);
+  }
+  #wrapper {
+      display: flex;
+      height: 100%;
+  }
+  #left {
+      flex: 0 0 30%;
+      background-color: #FFFF66;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      box-shadow: 13px 10px 5px -4px rgba(0,0,0,0.4);
+  }
+   #left-article {
+     padding: 10px;
+      margin:10px; 
+   }
+  #right {
+      flex: 1;
+  }
+  article {
+      height: 300px;
+      box-shadow: 13px 10px 5px -4px rgba(0,0,0,0.4);
+  }
+  .article-headings {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Bangers';
+  }
+  footer {
+      height: 50px;
+      box-shadow: 13px 10px 5px -4px rgba(0,0,0,0.4);
+  }
+</style>
+ <head>
+  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">  
+  <title>Portfolio</title>
+ </head>
+ <body>
+  <header>
+   <h1 id="Header">DoingNothingKills</h1>
+  </header>
+  <div id="wrapper">
+  <section id="left">
+   <img src=https://i.postimg.cc/ryZmwbVN/Kopieren-IMG-20190714-103026.jpg>
+   <p id="left-article"><em>Hey Guys, <br> the names Dorian and i am 24 years Old from Munich, Germany. I really like creating stuff and i like computers so thats why i am programming.</em></p>
+  </section>
+  <section id="right">
+   <article><h2 class="article-headings">Career</h2></article>
+   <article><h2 class="article-headings">Finance</h2></article>
+   <article><h2 class="article-headings">Personal</h2></article>
+  </section>
+  </div> 
+ </body>
+ <footer></footer>
+</html>
