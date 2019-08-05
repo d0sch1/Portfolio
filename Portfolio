@@ -8,6 +8,8 @@
   body {
       height: 1000px;
   }
+ 
+  <!-- I wanted to turn the image to a circle by this css-rule which obviously did not work
   img {
       max-width: 70%;
       padding: 10px;
@@ -15,6 +17,22 @@
       border: solid;
       border-color: transparent;
       border-radius: 200px;
+  }
+  -->
+  <!-- so now i figured out thanks to the help of the freecodecamp.org community
+       that i better fit images in a container and squares make circles but rectangles make ovals.
+       So i put the height and width of the container to an equal amount. -->
+   #imgcontainer {
+      height: 100px
+      width: 100px
+      border: solid;
+      border-radius: 50%;
+      border-color: transparent;
+      overflow: hidden;
+  }
+  img {
+      height: 100%;
+      width: 100%;
   }
   #Header {
       height: 50px;
